@@ -4,47 +4,47 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Hi! I have  passionate front-end developer with a knack for creating beautiful and responsive user interfaces. I love turning ideas into reality through code and am always eager to learn new technologies and improve my skills."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Hi! I have dedicated back-end developer with a strong focus on Node.js,Next.js and others. I enjoy building scalable web applications and APIs, and I am always eager to learn new technologies and improve my skills."
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Database Managment System",
+      "description": "Hi! I have a passionate database management professional with expertise in MySQL, MongoDB, and various other database technologies."
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
       "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Hello! I have a passionate Webflow developer with over 2 years of experience in creating visually stunning and highly functional websites. My journey in web development began with a fascination for design and technology, which led me to specialize in Webflow. ."
     }
   ],
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/mob.png",
+      "title": "MobileApp",
+      "description": " I am excited to showcase my latest mobile application, developed using Flutter, a powerful framework for building natively compiled applications for mobile, web, and desktop from a single codebase.",
+      "link": "https://github.com/eyoasmulat/mobileApp_calculator.git"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
+      "src": "./img/sc.png",
       "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "description": " Designed with passion in Figma, it aims to provide users with the tools and support they need to stay motivated and reach their full potential.",
+      "link": "https://github.com/eyoasmulat/figma-project.git"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "src": "./img/scl.png",
+      "title": "Easy Login page",
+      "description": "Designed with passion in Figma, it aims to provide users with the tools and support they need to stay motivated and reach their full potential.",
       "link": "View In Github"
     }
   ],
@@ -52,25 +52,27 @@
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
+      "src": "./img/nata.png",
+      "description":  "The quality of work delivered consistently exceeds our expectations, and we can always rely on timely completion."
+
+      ,
+      "author_name": "Natenal Alameer",
       "author_designation": "Starbucks"
     },
     {
       "id": "2",
       "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
+      "src": "./img/hail.png",
+      "description": "The quality of work delivered consistently exceeds our expectations, and we can always rely on timely completion.",
+      "author_name": "Haileyesus Melsew",
       "author_designation": "Louis Vuitton"
     },
     {
       "id": "3",
       "count": "5",
-      "src": "./img/avatar-image-2.png",
+      "src": "./img/mar.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
+      "author_name": "Marelign Teshome",
       "author_designation": "McDonald's"
     }
   ]
