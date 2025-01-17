@@ -1,11 +1,11 @@
 export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
-      <div>
+      <div className="contact--header">
         <p className="sub--title">Get In Touch</p>
-        <h2>Contact Me</h2>
+        <h2 className="moving-text">Contact Me</h2>
         <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+          You can contact me is there any comment or qustions
         </p>
       </div>
       <form className="contact--form--container">
@@ -41,7 +41,7 @@ export default function ContactMe() {
             />
           </label>
           <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">phone-number</span>
+            <span className="text-md">Phone Number</span>
             <input
               type="number"
               className="contact--input text-md"
@@ -51,8 +51,8 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        <label htmlFor="choode-topic" className="contact--label">
-          <span className="text-md">Choose a topic</span>
+        <label htmlFor="choose-topic" className="contact--label">
+          <span className="text-md">Choose a Topic</span>
           <select id="choose-topic" className="contact--input text-md">
             <option>Select One...</option>
             <option>Item 1</option>
@@ -69,7 +69,7 @@ export default function ContactMe() {
             placeholder="Type your message..."
           />
         </label>
-        <label htmlFor="checkboc" className="checkbox--label">
+        <label htmlFor="checkbox" className="checkbox--label">
           <input type="checkbox" required name="checkbox" id="checkbox" />
           <span className="text-sm">I accept the terms</span>
         </label>

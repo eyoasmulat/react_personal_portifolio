@@ -188,53 +188,78 @@ h2 {
 
 /* Hero Section Style */
 .hero--section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 133.333px;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 32px;
-  background-color: var(--bg-shade);
+  padding: 50px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+  color: white;
+  height: 100vh; /* Full viewport height */
 }
-.hero--section--content-box {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
+
+.hero--section--content--box {
+  max-width: 600px; /* Limit content width */
+  margin-left: 100px;
 }
-.hero--section--content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 21.333px;
-}
-.hero--section--content--box > button {
-  margin-top: 21.333px;
-}
+
 .hero--section--title {
-  color: var(--heading-color);
-  font-size: 74.667px;
-  font-weight: 700;
-  line-height: 90px;
-  align-self: stretch;
+  font-size: 3rem;
+  margin: 20px 0;
 }
-.hero--section--title--color {
-  color: var(--primary);
+.section--title{
+  color: rgb(240, 237, 237);
 }
+.hero--section-title--color {
+  color: #ffdd00; /* Highlight color for "Full Stack" */
+}
+
+.animated-text {
+  display: inline-block;
+  animation: fadeInUp 1s ease forwards; /* Animation for text */
+  opacity: 0; /* Start invisible */
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .hero--section-description {
-  color: var(--darkblue);
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 36px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
 }
-.hero--section--img {
-  display: flex;
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ffdd00; /* Button color */
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
-.hero--section--img > img {
-  width: 100%;
-  height: 100%;
+
+.btn:hover {
+  background-color: #ffd700; /* Darker shade on hover */
+}
+
+.hero--section--img img {
+  /*max-width: 100%; Responsive image */
+  height: auto;
+  width: 400px;
+  height: 400px;
+  margin-right: 100px;
   border-radius: 50%;
 }
+
 /* Hero Section Style Ends */
 
 /* Skills Section Style */
@@ -665,9 +690,112 @@ input[type="checkbox"] {
   .hero--section--content--box {
     gap: 10px;
   }
-  .contact--form--container {
-    width: 100%;
+  #contact{
+    background-color: #9a9696;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
   }
+  
+  .contact--section:hover {
+    background-color: #39484a; /* Light blue on hover */
+  }
+  
+  .contact--header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sub--title {
+    font-size: 1.2rem;
+    color: #00796b; /* Teal color */
+    animation: fadeIn 1s ease-in;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #004d40; /* Darker teal */
+    margin: 10px 0;
+  }
+  
+  .text-lg {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .contact--form--container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact--label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact--input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact--input:focus {
+    border-color: #00796b; /* Teal color on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 121, 107, 0.5);
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    background-color: #00796b; /* Teal */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #004d40; /* Darker teal on hover */
+  }
+  
+  .checkbox--label {
+    display: flex;
+    align-items: center;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .moving-text {
+    display: inline-block;
+    font-size: 50px;
+    overflow: hidden; /* Ensures that the text doesn't overflow */
+    white-space: nowrap; /* Prevents text wrapping */
+    animation: moveText 5s linear infinite; /* Animation properties */
+  }
+  
+  @keyframes moveText {
+    0% {
+      transform: translateX(100%); /* Start from the right */
+    }
+    50% {
+      transform: translateX(-100%); /* Move to the left */
+    }
+    100% {
+      transform: translateX(100%); /* Loop back to the start */
+    }
+  }
+  
+  
   .container {
     display: flex;
     flex-direction: column;
