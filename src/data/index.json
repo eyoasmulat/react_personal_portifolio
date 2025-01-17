@@ -57,7 +57,7 @@
 
       ,
       "author_name": "Natenal Alameer",
-      "author_designation": "Starbucks"
+      "author_designation": " Computer science"
     },
     {
       "id": "2",
@@ -65,7 +65,7 @@
       "src": "./img/hail.png",
       "description": "The quality of work delivered consistently exceeds our expectations, and we can always rely on timely completion.",
       "author_name": "Haileyesus Melsew",
-      "author_designation": "Louis Vuitton"
+      "author_designation": "Software enginer"
     },
     {
       "id": "3",
@@ -73,7 +73,7 @@
       "src": "./img/mar.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "author_name": "Marelign Teshome",
-      "author_designation": "McDonald's"
+      "author_designation": "Cliant"
     }
   ]
 }
