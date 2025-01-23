@@ -1,15 +1,15 @@
 export default function ContactMe() {
   return (
-    <section id="Contact" className="contact--section">
-      <div className="contact--header">
+    <section id="Contact" className="contact--section bg-success">
+      <div className="contact--header bg-info">
         <p className="sub--title">Get In Touch</p>
-        <h2 className="moving-text">Contact Me</h2>
+        <h2 className="moving-text section-title">Contact Me</h2>
         <p className="text-lg">
           You can contact me is there any comment or qustions
         </p>
       </div>
-      <form className="contact--form--container">
-        <div className="container">
+      <form className="contact--form--container ">
+        <div className="container ">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
             <input

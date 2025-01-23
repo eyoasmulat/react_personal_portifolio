@@ -25,6 +25,9 @@ p {
   --black: #000000;
   --white: #ffffff;
 }
+.eyoas{
+  color: red;
+}
 .btn {
   font-family: "Roboto";
   display: inline-block;
@@ -181,6 +184,9 @@ h2 {
   line-height: 24px;
   cursor: pointer;
 }
+.navbar--content:hover {
+  color: lime;
+}
 .navbar--active-content {
   color: var(--primary);
 }
@@ -210,6 +216,7 @@ h2 {
 .section--title{
   color: rgb(240, 237, 237);
 }
+
 .hero--section-title--color {
   color: #ffdd00; /* Highlight color for "Full Stack" */
 }
@@ -296,7 +303,9 @@ h2 {
   min-height: 250px;
 }
 .skills--section--card:hover {
-  border-bottom: 4px solid var(--primary);
+  background-color: #5e3bee;
+  color: white;
+  border-bottom: 10px solid var(--black);
 }
 .skills--section--card:hover .skills--section--description {
   color: var(--darkblue);
@@ -398,6 +407,11 @@ h2 {
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+}
+.portfolio--section--card:hover{
+  background-color: #e62872;
+  border-radius: 15px;
+  border-bottom: 10px solid var(--primary);
 }
 .portfolio--section--card--content {
   display: flex;
@@ -691,7 +705,7 @@ input[type="checkbox"] {
     gap: 10px;
   }
   #contact{
-    background-color: #9a9696;
+    background-color: #0a4988;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
